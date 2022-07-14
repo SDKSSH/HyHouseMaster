@@ -1,0 +1,14 @@
+{
+  "name": "hyhousemaster",
+  "version": "1.0",
+  "description": "Hypixel Housing Bot framework written in NodeJS",
+  "main": "index.js",
+  "repository": {
+    "url" : "https://github.com/SDKSSH/HyHouseMaster",
+    "type": "git"
+  },
+  "author": "SDKSSH",
+  "license": "MIT",
+  "keywords": ["hypixel", "housing", "minecraft", "bot", "framework", "mcbot", "minecraft-hypixel", "hypixel-framework", "minecraft-framework"], 
+  "homepage": "http://sdkssh.me/project/hyhousemaster/"
+}
