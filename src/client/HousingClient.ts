@@ -1,18 +1,11 @@
-const mineFlayer = require("mineflayer");
-/**class Client {
-    constructor(options = {username, password, version : "1.17.0"}){
-        this.options = options;
-    }
+import { ClientOptions } from "../options/ClientOptions";
+const mineFlayer = require("mineflayer")
 
-    start(housing = {username, houseName}) {
-        mineFlayer.createBot({
-            username: this.options.username,
-            password: this.options.password,
-            version: this.options.version,
-            host: "play.hypixel.net",
-            port: 25565,
-            auth: "microsoft",
 
-        })
+export class HousingClient {
+    private options: ClientOptions;
+
+    constructor(options: ClientOptions) {
+        this.options = options;    
     }
-}**/
+}
