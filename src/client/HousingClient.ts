@@ -28,6 +28,11 @@ export class HousingClient {
                 "password" : this.options.account.password
             }
         )
+        this.mineclient.once("spawn", () => {
+            setTimeout(() => {
+                this.mineclient.chat("/visit "+this.options.housing.owner+" "+this.options.housing.houseName)
+            }, 1000)
+        })
     }
      
 }
