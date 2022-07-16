@@ -27,7 +27,7 @@ export class HousingClient {
                 "username" : this.options.account.username,
                 "password" : this.options.account.password
             }
-        )Z
+        )
     }
      
 }
